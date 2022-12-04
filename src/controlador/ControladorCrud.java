@@ -60,7 +60,7 @@ public class ControladorCrud implements ActionListener{
           String dni = vistaCRUD.txtDni.getText();
           String apellidos = vistaCRUD.txtApellidos.getText();
           String nombres = vistaCRUD.txtNombres.getText();
-          String lugar = vistaCRUD.txtLugar.getText();
+          String lugar = vistaCRUD.txtBuscar.getText();
           
           SimpleDateFormat formatoFecha = new SimpleDateFormat("yyyy-MM-dd");
           String fecha = formatoFecha.format(vistaCRUD.jdFecha.getDate());
